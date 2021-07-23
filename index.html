@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HiTech</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <h2>HiTech</h2>
+                <div id="mySidepanel" class="sidepanel">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                    <ul>
+                        <li>
+                            <a href="#" class="active">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Services</a>
+                        </li>
+                        <li>
+                            <a href="#">Projects</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <button class="openbtn" onclick="openNav()">☰</button>
+            </nav>
+        </div>
+    </header>
+    <section class="showcase">
+        <div class="showcase-content">
+            <h1>Building Websites and Mobile Apps for Boosting your Business</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ducimus reprehenderit laboriosam quis
+                modi dignissimos ad quas. Cumque, eum! Quae adipisci modi deserunt ullam sapiente earum fugiat et
+                dolore. Quisquam.
+            </p>
+            <a href="#" class="btn">Explore</a>
+        </div>
+    </section>
+    <section class="about m-t">
+        <div class="container">
+            <h2 class="m-b">About Us</h2>
+            <div class="about-wrapper">
+                <div class="about-image">
+                    <img src="Images/about.jpg" alt="">
+                </div>
+                <div class="about-content">
+                    <h1>Specialized in Website Design and Development</h1>
+                    <div class="line"></div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus sequi expedita, nam eaque nemo
+                        nobis. Id consequatur quam, soluta natus doloribus delectus dolorum quisquam qui, officia sunt
+                        corrupti voluptatem nesciunt fuga nihil aut, temporibus impedit laudantium praesentium sapiente
+                        officiis explicabo! Beatae iste ipsam est natus. Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. Corporis, autem?
+                    </p>
+                    <ul>
+                        <li>Providing you solutions for all your software needs.</li>
+                        <li>Mobile App Development.</li>
+                        <li>Wordpress Development made easy.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="service">
+        <h2 class="service-heading">Our Services</h2>
+        <div class="service-card">
+            <div class="card">
+                <img src="Images/Wordpress.png" alt="Wordpress" style="width:100%">
+                <h3>Wordpress Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem odio dicta quaerat omnis culpa
+                    repellendus possimus corrupti sapiente nostrum optio.</p>
+                <p><button>Learn More..</button></p>
+            </div>
+            <div class="card">
+                <img src="Images/Mobile App Development.jpg" alt="Python" style="width:100%">
+                <h3>Mobile App Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem odio dicta quaerat omnis culpa
+                    repellendus possimus corrupti sapiente nostrum optio.</p>
+                <p><button>Learn More..</button></p>
+            </div>
+            <div class="card">
+                <img src="Images/SEO Services.jpg" alt="" style="width:100%">
+                <h3>SEO Services</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem odio dicta quaerat omnis culpa
+                    repellendus possimus corrupti sapiente nostrum optio.</p>
+                <p><button>Learn More..</button></p>
+            </div>
+        </div>
+    </section>
+    <section class="form-section">
+        <div>
+            <h2>
+                Contact
+            </h2>
+        </div>
+        <div class="form">
+            <form action="#">
+                <input type="text" class="form-control" id="fname" placeholder="Enter Your Full Name"><br>
+                <input type="text" class="form-control" id="ename" placeholder="Enter Your Email"><br>
+                <input type="text" class="form-control" id="subject" placeholder="Subject"><br>
+                <textarea rows="4" cols="56" class="textarea" name="comment"
+                    placeholder="Enter your Message"></textarea><br>
+                <input type="submit" id="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+    <footer class="page-footer">
+        <span class="footer">&copy; 2007-2021<span>HiTECH.com</span></span>
+    </footer>
+</body>
+<script>
+    function openNav() {
+        document.getElementById("mySidepanel").style.width = "100vw";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidepanel").style.width = "0";
+    }
+</script>
+
+</html>
